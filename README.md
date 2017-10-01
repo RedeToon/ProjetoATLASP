@@ -1,10 +1,14 @@
 
 # Rotux Private Server Source
+# ATLASP Private Server Source
 
 Based on [FSOD](https://github.com/ossimc82/fabiano-swagger-of-doom).
+         [ATLAS Project]
 
 Credits for Rotux:
 * MihailProg/Mihail Mojsoski
+Credits for ATLASP:
+* Koyza/Koyzdo
 
 Credits for some stuff:
 * Ghostmaree
