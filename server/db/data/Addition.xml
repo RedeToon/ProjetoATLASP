@@ -1,0 +1,275 @@
+﻿<ExtData>
+  <Object ext="true" id="Axe Proj">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x3d</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object ext="true" id="kekxd">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>30</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>{equip.Customize_your_Knight_with_the_Slime_Skin._Rarity:_Uncommon}</Description>
+    <Activate skinType="950">UnlockSkin</Activate>
+    <Consumable/>
+    <BagType>1</BagType>
+    <DisplayId>{equip.Slime_Knight_Skin}</DisplayId>
+  </Object>
+  <Object ext="true" id="InnerSanctum Task Master">
+    <Class>Character</Class>
+    <StasisImmune/>
+    <NoMiniMap/>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dwarves_death</DeathSound>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Size>0</Size>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <DisplayId>A strange Presence</DisplayId>
+  </Object>
+  <Object id="Gold" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x99</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>What could hide inside it...</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="5">Gold</Activate>
+    <Consumable/>
+    <Potion/>
+    <Soulbound/>
+    <BagType>2</BagType>
+    <DisplayId>Gold</DisplayId>
+  </Object>
+  <Object id="Fame" ext="true">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x98</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>What could hide inside it...</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="10">Fame</Activate>
+    <Consumable/>
+    <Potion/>
+    <Soulbound/>
+    <BagType>2</BagType>
+    <DisplayId>Fame</DisplayId>
+  </Object>
+
+  <Object ext="true" id="Reaper Key">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x88</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Grim Reaper's Lair</Description>
+    <Sound>use_key</Sound>
+    <Consumable/>
+    <Soulbound/>
+    <Activate id="Grim Reaper's Lair">Create</Activate>
+    <feedPower>270</feedPower>
+    <DisplayId>Reaper Key</DisplayId>
+  </Object>
+  <Object ext="true" id="Grim Reaper's Lair">
+    <Class>Portal</Class>
+    <IntergamePortal/>
+    <DungeonName>Grim Reaper's Lair</DungeonName>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x89</Index>
+    </Texture>
+    <DisplayId>Grim Reaper's Lair</DisplayId>
+  </Object>
+
+
+  <Object ext="true" id="Shybo">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>20</Size>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Quest/>
+    <StasisImmune/>
+    <StunImmune/>
+    <DazedImmune/>
+    <XpMult>0.8</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>125</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1250</LifetimeMS>
+    </Projectile>
+    <DisplayId>Shybo</DisplayId>
+  </Object>
+  <Object ext="true" id="A Shybo Enemy">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Quest/>
+    <StasisImmune/>
+    <StunImmune/>
+    <DazedImmune/>
+    <XpMult>0.8</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>75</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+    <DisplayId>A Shybo Enemy</DisplayId>
+  </Object>
+  <Object ext="true" id="Shybo Minion">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>70</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Quest/>
+    <StasisImmune/>
+    <StunImmune/>
+    <DazedImmune/>
+    <XpMult>0.8</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>75</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <DisplayId>Shybo Minion</DisplayId>
+  </Object>
+  <Object type="0x0327" id="Mad God">
+    <Class>Player</Class>
+    <Description>Hu? What? Oryx what are you doing here?</Description>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>91</Index>
+    </AnimatedTexture>
+    <HitSound>monster/oryx_hit</HitSound>
+    <DeathSound>monster/oryx_death</DeathSound>
+    <Player/>
+    <BloodProb>1.0</BloodProb>
+    <SlotTypes>1, 5, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0x4001, 0x4002, 0x2337, 0x2338, 0xa22, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <MaxHitPoints max="800">200</MaxHitPoints>
+    <MaxMagicPoints max="300">100</MaxMagicPoints>
+    <Attack max="75">15</Attack>
+    <Defense max="65">0</Defense>
+    <Speed max="50">7</Speed>
+    <Dexterity max="55">10</Dexterity>
+    <HpRegen max="80">10</HpRegen>
+    <MpRegen max="60">10</MpRegen>
+    <LevelIncrease min="20" max="30">MaxHitPoints</LevelIncrease>
+    <LevelIncrease min="2" max="8">MaxMagicPoints</LevelIncrease>
+    <LevelIncrease min="1" max="2">Attack</LevelIncrease>
+    <LevelIncrease min="0" max="0">Defense</LevelIncrease>
+    <LevelIncrease min="0" max="2">Speed</LevelIncrease>
+    <LevelIncrease min="0" max="2">Dexterity</LevelIncrease>
+    <LevelIncrease min="1" max="2">HpRegen</LevelIncrease>
+    <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
+    <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
+    <UnlockLevel level="20" type="0x031e">Knight</UnlockLevel>
+    <UnlockCost>1520</UnlockCost>
+    <DisplayId>Mad God</DisplayId>
+  </Object>
+  <Object type="0xe294" id="Gladiator Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Gladiators never dies
+    </Description>
+    <Activate skinType="50009">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>4</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Gladiator</DisplayId>
+  </Object>
+  <Object type="0xc359" id="Gladiator">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect/>
+    <DisplayId>Gladiator Skin</DisplayId>
+  </Object>
+  <Object type="0xe295" id="Sadness Skin">
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>92</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>
+      Why... Oryx why you do that?
+    </Description>
+    <Activate skinType="50010">UnlockSkin</Activate>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>4</BagType>
+    <feedPower>2000</feedPower>
+    <DisplayId>Sadness</DisplayId>
+  </Object>
+  <Object type="0xc35a" id="Sadness">
+    <Skin/>
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>92</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <NoSkinSelect/>
+    <DisplayId>Sadness Wizard</DisplayId>
+  </Object>
+</ExtData>
