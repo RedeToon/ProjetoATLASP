@@ -1,5 +1,5 @@
-# Rotux
+# ATLASP
 
-## Rotux - Mono (Linux + Mac Compatible) Realm of the Mad God Private Server
+## ATLAS Project - Nome do Servidor, RotMG Private Server
 
-## (Rot)mg + Lin(ux) - LMCRPS
+## ATLAS + (P)ersonal = ATLASP
