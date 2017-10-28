@@ -1,6 +1,10 @@
 
 # ATLASP Private Server Source
-
+## Compativel com:
+	#Linux
+	#Mac
+	#Windows
+	
 Baseado em [FSOD](https://github.com/ossimc82/fabiano-swagger-of-doom).
 
 Site [ATLAS-Project](https://psatlasproject.weebly.com).
