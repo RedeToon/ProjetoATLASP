@@ -2,7 +2,7 @@
 # ATLASP Private Server Source
 
 Baseado em [FSOD](https://github.com/ossimc82/fabiano-swagger-of-doom).
-Site 	   [ATLAS Project] (https://psatlasproject.weebly.com/).
+Site [ATLAS Project] (https://psatlasproject.weebly.com/).
 
 Credito do ATLASP:
 * Koyza/Koyzdo
